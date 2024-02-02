@@ -42,7 +42,7 @@ Pre-2019 Rust Website
 2018 Edition was the first ever edition.
 
 - Parallel Codegen, incremental compilation
-- The `try!` operator was superseeded by `?`
+- The `try!` operator was superseded by `?`
 - The module system was funny (`extern crate ...`)
 - `impl Trait`, `NLL`, Clippy
 - `async` and `await` not keywords yet!
@@ -57,7 +57,6 @@ Occasionally, builds would break.
 
 - What does it even mean `SEGFAULT`?
   Does the _absence_ of something define a language?!
-
 
 - "🚀🚀🚀 blazingly fast 🚀🚀🚀" has become a meme
   Don't put this in your project `README.md`
@@ -108,7 +107,7 @@ Perceived boundary:
 
 ---
 
-## It's mostly a false dichotomy!
+## It's mostly a false dichotomy
 
 There is no meaningful distinction (anymore).
 
@@ -123,7 +122,11 @@ Realistically: both.
 
 No boundary, because:
 Frontend looks like
-Kernel Development!
+System Development!
+
+That's maybe
+not the goal.
+Or is it?
 
 Not dunking on yew,
 it's cool
@@ -163,7 +166,8 @@ Now:
 
 Imagine `tokio`, but on microcontrollers.
 
-Why does this make sense? `async` is for I/O, and on a microcontroller EVERYTHING is I/O! Even the passing of time.
+Why does this make sense? `async` is for I/O, and on a microcontroller EVERYTHING is I/O!
+Even the passing of time.
 
 **FINALLY** embassy [is on crates.io](https://embassy.dev/blog/embassy-hals-released/)! (Jan. 22nd 2024)
 
@@ -218,11 +222,11 @@ loop {
 
 # Takeaways
 
-* Rust has come a long way
-* The "systems" aspects are converging with the "approachability" aspects
-* The ecosystem is glorious, but it is bleeding edge
-* Embedded programming can be painless and enjoyable.
+- Rust has come a long way
+- The "systems" aspects are converging with the "approachability" aspects
+- The ecosystem is glorious, but it is bleeding edge
+- Embedded programming can be painless and enjoyable.
 
 <br>
 
-# Thanks :) and have fun!
+## Thanks :) and have fun
